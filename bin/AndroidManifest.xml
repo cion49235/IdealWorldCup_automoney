@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ideal.worldcup.automoney"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:largeHeap="true"
+        android:name="ideal.worldcup.automoney.App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon128"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light"
+        android:launchMode="singleTop" 
+        android:hardwareAccelerated="false">
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.activity.IntroActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.MainFragmentActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.fragment.Fragment_Popularity"/>
+        
+        <activity
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.activity.ThemeStartActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.activity.ThemeContestActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.activity.ThemeContestIntroActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.activity.ThemeEndActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="ideal.worldcup.automoney.activity.ThemeResultActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:name="ideal.worldcup.automoney.activity.GeneralThemeCreateActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="kr.co.inno.autocash.AutoLayoutGoogleActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="kr.co.inno.autocash.AutoLayoutGoogleResultActivity"/>
+        
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="kr.co.inno.autocash.AutoLayoutGoogleDeviceActivity"/>
+        
+       <!-- For Admob -->
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    
+        <receiver android:name="kr.co.inno.autocash.RestartReceiver"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="RestartReceiver.restart" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        
+        <service android:name="kr.co.inno.autocash.service.AutoServiceActivity"/>
+        <service android:name="kr.co.inno.autocash.service.AutoCompleteServiceActivity"/>
+        <service android:name="kr.co.inno.autocash.service.AutoWebviewServiceActivity"/>
+        <!-- 자동 로그인 서비스 추가 -->
+        <service android:name="kr.co.inno.autocash.service.AutoLoginServiceActivity"/>
+        
+        <receiver android:name="kr.co.inno.autocash.service.receiver.AutoEditPackageReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+</manifest>

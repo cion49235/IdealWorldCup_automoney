@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">理想的世界杯</string>
+    <string name="url_prefix">https://dbdbdeep.com/app_w</string>
+    <string name="url_image_upload_prefix">http://modoostar.com/app_w</string>
+    <string name="url_image_prefix">http://modoostar.com</string>
+    <string name="txt_finish_ment">"你确定要退出吗？"</string>
+    <string name="txt_finish_yes">"结束"</string>
+    <string name="txt_finish_no">"取消"</string>
+    <string name="upload_img_width">600</string>
+    <string name="upload_img_height">800</string>
+    <string name="permission_ment">"为了创造一场战斗，我们将通知您，移动设备的设置 - 应用程序权限 - 存储空间读/写 - 必须被允许。"</string>
+    <string name="permission_cancel">"'거부'할 경우 새로운 배틀만들기를 할수 없습니다."</string>
+    <string name="picturetitle01">"你不能创造新的战斗。"</string>
+    <string name="picturetitle02">"输入"</string>
+    <string name="picturetitle03">"输入标题"</string>
+    <string name="toast_msg_google_success">它与Google ID相关联</string>
+    <string name="auto_install_url">"http://cion49235.cafe24.com/auto_install/auto_install_list.php"</string>
+    
+    <!-- 테마배틀 리스트 조회(사용자별) -->
+    <string name="contest_theme_list_by_me">/contest/contest_theme_list_sel_by_me.php?curr_page=%1$d&amp;page_cnt=%2$d&amp;m_app_uid=%3$s&amp;ct_type=%4$s</string>
+    <!-- 테마배틀 리스트 아이템 조회 -->
+    <string name="contest_theme_item_sel">/contest/contest_theme_item_sel.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 테마배틀 승리 Data 전송 -->
+    <string name="contest_theme_win_upd">/contest/contest_theme_win_upd.php?m_app_uid=%1$s&amp;ct_seq=%2$s&amp;cti_seq=%3$s</string>
+    <!-- 테마배틀 결과 조회 -->
+    <string name="contest_theme_result_sel">/contest/contest_theme_result_sel.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 테마대전(일반) 파일 업로드 -->
+    <string name="contest_theme_general_item_ins">/contest/contest_theme_general_item_ins.php?m_app_uid=%1$s&amp;cti_name=%2$s&amp;ct_seq=%3$d&amp;cti_sort=%4$d</string>
+    <!-- 테마대전(일반) 생성 -->
+    <string name="contest_theme_general_ins">/contest/contest_theme_general_ins.php?m_app_uid=%1$s&amp;title=%2$s&amp;cnt_target=%3$d</string>
+    <!-- 테마대전(일반) 생성 완료 -->
+    <string name="contest_theme_general_ins_done">/contest/contest_theme_general_ins_done.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 자동설치 리스트 -->
+    <string name="auto_install_list">/auto/auto_install_list.php?m_app_uid=%1$s</string>
+    <!-- 자동설치 목록정보 전송 -->
+    <string name="auto_install_list_upd">/auto/auto_install_upd_for_app.php?m_app_uid=%1$s&amp;aai_link_url=%2$s</string>
+    
+    <string name="app_uid">"620td4ximw4872Ce1m0v_00172257U23A47app_w|||||M2923"</string>
+    <string name="ma_code">"M29234872C"</string>
+    
+    <string name="MainFragmentActivity01">声望</string>
+    <string name="MainFragmentActivity02">一般</string>
+    <string name="MainFragmentActivity03">特别</string>
+    <string name="MainFragmentActivity04">活动</string>
+    <string name="MainFragmentActivity05">没有找到数据列表</string>
+    <string name="MainFragmentActivity06">找不到数据列表</string>
+    <string name="MainFragmentActivity07">声音设置</string>
+    <string name="MainFragmentActivity08">上</string>
+    <string name="MainFragmentActivity09">离</string>
+    <string name="MainFragmentActivity10">4VS(触摸)</string>
+    <string name="MainFragmentActivity11">8VS(触摸)</string>
+    <string name="MainFragmentActivity12">16VS(触摸)</string>
+    <string name="MainFragmentActivity13">"返回“按钮。"</string>
+    
+    <string name="FragmentPopularity01">找不到数据列表</string>
+    <string name="FragmentPopularity02">"参与"</string>
+    <string name="FragmentPopularity03">"圆"</string>
+    <string name="FragmentPopularity04">"结束事件"</string>
+    <string name="FragmentPopularity05">"这是最后的比赛"</string>
+    <string name="FragmentPopularity06">"您可以在参与后查看结果。"</string>
+    
+    <string name="ThemeContestActivity01">"确认"</string>
+    <string name="ThemeContestActivity02">"你确定要退出吗？"</string>
+    <string name="ThemeContestActivity03">"没有"</string>
+    <string name="ThemeContestActivity04">"好"</string>
+    
+    <string name="ThemeResultActivity01">"标题"</string>
+    <string name="ThemeResultActivity02">"战斗"</string>
+    <string name="ThemeResultActivity03">"查看结果"</string>
+    <string name="ThemeResultActivity04">"现在"</string>
+    <string name="ThemeResultActivity05">"参与"</string>
+    <string name="ThemeResultActivity06">"选择)"</string>
+    
+    <string name="GeneralThemeCreateActivity01">"拍照"</string>
+    <string name="GeneralThemeCreateActivity02">"相册照片"</string>
+    <string name="GeneralThemeCreateActivity03">"请输入标题。"</string>
+    <string name="GeneralThemeCreateActivity04">"图片未注册"</string>
+    <string name="GeneralThemeCreateActivity05">"名称未注册"</string>
+    <string name="GeneralThemeCreateActivity06">"上传。 请等一下"</string>
+    <string name="GeneralThemeCreateActivity07">"请输入姓名"</string>
+    <string name="GeneralThemeCreateActivity08">"确认"</string>
+    <string name="GeneralThemeCreateActivity09">"没有输入值。"</string>
+    <string name="GeneralThemeCreateActivity10">"取消"</string>
+    <string name="GeneralThemeCreateActivity11">"标题"</string>
+    <string name="GeneralThemeCreateActivity12">"比赛"</string>
+    <string name="GeneralThemeCreateActivity13">"照片注册"</string>
+    
+    <string name="GeneralThemeCreateActivity14">"通知"</string>
+    <string name="GeneralThemeCreateActivity15">"Google Play商店需要Gmail帐户验证程序。 如果您同意，请点击验证帐户按钮。"</string>
+    <string name="GeneralThemeCreateActivity16">"帐户验证"</string>
+    <string name="GeneralThemeCreateActivity17">"结束"</string>
+ 
+</resources>

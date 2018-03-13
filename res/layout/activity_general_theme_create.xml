@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_general_theme_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dbdbdeep.modoostar.app.theme.GeneralThemeCreateActivity">
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/layout_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thema_input_icon_01"
+                    android:id="@+id/imageView15"
+                    android:layout_marginRight="7dp"/>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="@string/GeneralThemeCreateActivity11" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                    android:background="@drawable/edittext_design"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thema_input_icon_01"
+                    android:id="@+id/imageView16"
+                    android:layout_marginRight="7dp"/>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="@string/GeneralThemeCreateActivity12" />
+                <Button
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spinner_general_theme_ins"/>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="19dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thema_input_icon_01"
+                    android:id="@+id/imageView14"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="@string/GeneralThemeCreateActivity13" />
+
+                <Button
+                    android:layout_width="152.5dp"
+                    android:layout_height="32.5dp"
+                    android:id="@+id/btPhotoChooser"
+                    android:background="@drawable/bt_general_theme_create_upload"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/llWrapper"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                >
+            <Button
+                android:layout_width="134dp"
+                android:layout_height="46.5dp"
+                android:id="@+id/btCancel"
+                android:background="@drawable/bt_general_theme_create_cancel"
+                android:layout_marginRight="32dp"
+                />
+
+            <Button
+                android:layout_width="134dp"
+                android:layout_height="46.5dp"
+                android:id="@+id/btTotalUpload"
+                android:background="@drawable/bt_general_theme_create_ok"
+                />
+            </LinearLayout>
+            <RelativeLayout
+			 android:id="@+id/ad_layout"
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content" 
+			 android:layout_gravity="center_horizontal">		      
+			</RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

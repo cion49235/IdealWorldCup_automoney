@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 팝업창에 적용할 스타일을 기본 테마를 상속받아서 정의 -->
+    <style name="loading_dialog_style" parent="@android:style/Theme.Dialog">
+        <!-- 타이틀 사용 안함 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleStyle">@null</item>
+
+        <!-- 다이얼로그의 틀을 사용 안함 -->
+        <item name="android:windowFrame">@null</item>
+
+        <!-- 애니메이션 스타일은 다이얼로그 기본값 사용 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+
+        <!-- 중요: 다이얼로그의 배경을 투명하게 설정 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!-- 다이얼로그 표시될 때 뒷 배경 반투명 처리 사용 안함 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

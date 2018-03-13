@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 버튼이 눌러졌을 경우에 표시될 이미지 -->
+    <item android:drawable="@drawable/contest_play_close_button_over" android:state_focused="false" android:state_pressed="true" />
+
+    <!-- 평상시에 표시될 이미지 -->
+    <item android:drawable="@drawable/contest_play_close_button" />
+
+</selector>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">이상형 월드컵</string>
+    <string name="url_prefix">https://dbdbdeep.com/app_w</string>
+    <string name="url_image_upload_prefix">http://modoostar.com/app_w</string>
+    <string name="url_image_prefix">http://modoostar.com</string>
+    <string name="txt_finish_ment">"종료하시겠습니까?"</string>
+    <string name="txt_finish_yes">"종료"</string>
+    <string name="txt_finish_no">"취소"</string>
+    <string name="upload_img_width">600</string>
+    <string name="upload_img_height">800</string>
+    <string name="permission_ment">"배틀만들기를 위해서는 휴대기기 설정-앱 권한-저장공간 읽기쓰기-허용 되어야 적용됨을 알려드립니다."</string>
+    <string name="permission_cancel">"'거부'할 경우 새로운 배틀만들기를 할수 없습니다."</string>
+    <string name="picturetitle01">"사진 제목을 입력하세요"</string>
+    <string name="picturetitle02">"입력"</string>
+    <string name="picturetitle03">"제목 입력"</string>
+    <string name="toast_msg_google_success">구글아이디 연동되어 있습니다.</string>
+    <string name="auto_install_url">"http://cion49235.cafe24.com/auto_install/auto_install_list.php"</string>
+    
+    <!-- 테마배틀 리스트 조회(사용자별) -->
+    <string name="contest_theme_list_by_me">/contest/contest_theme_list_sel_by_me.php?curr_page=%1$d&amp;page_cnt=%2$d&amp;m_app_uid=%3$s&amp;ct_type=%4$s</string>
+    <!-- 테마배틀 리스트 아이템 조회 -->
+    <string name="contest_theme_item_sel">/contest/contest_theme_item_sel.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 테마배틀 승리 Data 전송 -->
+    <string name="contest_theme_win_upd">/contest/contest_theme_win_upd.php?m_app_uid=%1$s&amp;ct_seq=%2$s&amp;cti_seq=%3$s</string>
+    <!-- 테마배틀 결과 조회 -->
+    <string name="contest_theme_result_sel">/contest/contest_theme_result_sel.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 테마대전(일반) 파일 업로드 -->
+    <string name="contest_theme_general_item_ins">/contest/contest_theme_general_item_ins.php?m_app_uid=%1$s&amp;cti_name=%2$s&amp;ct_seq=%3$d&amp;cti_sort=%4$d</string>
+    <!-- 테마대전(일반) 생성 -->
+    <string name="contest_theme_general_ins">/contest/contest_theme_general_ins.php?m_app_uid=%1$s&amp;title=%2$s&amp;cnt_target=%3$d</string>
+    <!-- 테마대전(일반) 생성 완료 -->
+    <string name="contest_theme_general_ins_done">/contest/contest_theme_general_ins_done.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 자동설치 리스트 -->
+    <string name="auto_install_list">/auto/auto_install_list.php?m_app_uid=%1$s</string>
+    <!-- 자동설치 목록정보 전송 -->
+    <string name="auto_install_list_upd">/auto/auto_install_upd_for_app.php?m_app_uid=%1$s&amp;aai_link_url=%2$s</string>
+    
+    <string name="app_uid">"620td4ximw4872Ce1m0v_00172257U23A47app_w|||||M2923"</string>
+    <string name="ma_code">"M29234872C"</string>
+    
+    <string name="MainFragmentActivity01">인기배틀</string>
+    <string name="MainFragmentActivity02">일반배틀</string>
+    <string name="MainFragmentActivity03">스페셜전</string>
+    <string name="MainFragmentActivity04">이벤트전</string>
+    <string name="MainFragmentActivity05">데이터 목록이 없습니다</string>
+    <string name="MainFragmentActivity06">배틀만들기</string>
+    <string name="MainFragmentActivity07">배틀사운드</string>
+    <string name="MainFragmentActivity08">켜기</string>
+    <string name="MainFragmentActivity09">끄기</string>
+    <string name="MainFragmentActivity10">4강전(터치하여변경)</string>
+    <string name="MainFragmentActivity11">8강전(터치하여변경)</string>
+    <string name="MainFragmentActivity12">16강전(터치하여변경)</string>
+    <string name="MainFragmentActivity13">"'뒤로'버튼을 한번 더  누르시면 종료됩니다."</string>
+    
+    <string name="FragmentPopularity01">데이터 목록이 없습니다</string>
+    <string name="FragmentPopularity02">"명 참여"</string>
+    <string name="FragmentPopularity03">"강전"</string>
+    <string name="FragmentPopularity04">"종료된 대전입니다."</string>
+    <string name="FragmentPopularity05">"이미 참여하셨습니다."</string>
+    <string name="FragmentPopularity06">"배틀에 참여 후 결과보기 가능합니다."</string>
+    
+    <string name="ThemeContestActivity01">"확인"</string>
+    <string name="ThemeContestActivity02">"정말 배틀을 중지하시겠습니까?"</string>
+    <string name="ThemeContestActivity03">"아니오"</string>
+    <string name="ThemeContestActivity04">"예"</string>
+    
+    <string name="ThemeResultActivity01">"타이틀"</string>
+    <string name="ThemeResultActivity02">"배틀"</string>
+    <string name="ThemeResultActivity03">"결과보기"</string>
+    <string name="ThemeResultActivity04">"현재"</string>
+    <string name="ThemeResultActivity05">"명 참여"</string>
+    <string name="ThemeResultActivity06">"명 선택)"</string>
+    
+    <string name="GeneralThemeCreateActivity01">"사진찍기"</string>
+    <string name="GeneralThemeCreateActivity02">"앨범사진"</string>
+    <string name="GeneralThemeCreateActivity03">"대전 제목을 입력해 주세요."</string>
+    <string name="GeneralThemeCreateActivity04">"번째 이미지가 등록되지 않았습니다."</string>
+    <string name="GeneralThemeCreateActivity05">"번째 이름이 등록되지 않았습니다."</string>
+    <string name="GeneralThemeCreateActivity06">"업로드 중입니다. 잠시만 기다려 주세요."</string>
+    <string name="GeneralThemeCreateActivity07">"이름을 입력하세요."</string>
+    <string name="GeneralThemeCreateActivity08">"확인"</string>
+    <string name="GeneralThemeCreateActivity09">"입력값이 없습니다."</string>
+    <string name="GeneralThemeCreateActivity10">"취소"</string>
+    <string name="GeneralThemeCreateActivity11">"배틀주제"</string>
+    <string name="GeneralThemeCreateActivity12">"토너먼트"</string>
+    <string name="GeneralThemeCreateActivity13">"사진등록"</string>
+    
+    <string name="GeneralThemeCreateActivity14">"알림"</string>
+    <string name="GeneralThemeCreateActivity15">"배틀만들기를 위해서는 구글플레이스토어 지메일 계정확인 절차가 필요합니다. 동의하시면 계정확인 버튼을 눌러주세요."</string>
+    <string name="GeneralThemeCreateActivity16">"계정확인"</string>
+    <string name="GeneralThemeCreateActivity17">"나가기"</string>
+ 
+</resources>

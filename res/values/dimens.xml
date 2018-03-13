@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="ambilwarna_hsvHeight">240dp</dimen>
+	<dimen name="ambilwarna_hsvWidth">240dp</dimen>
+	<dimen name="ambilwarna_hueWidth">30dp</dimen>
+	<dimen name="ambilwarna_spacer">8dp</dimen>
+	
+	<!-- font_size -->
+	<dimen name="text_vvb">30sp</dimen>
+    <dimen name="text_vb">20sp</dimen>
+    <dimen name="text_b">17sp</dimen>
+    <dimen name="text_m">15sp</dimen>
+    <dimen name="text_s">10sp</dimen>
+    <dimen name="text_vvs">12sp</dimen>
+    
+    <!-- Pull To Refresh  -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    
+    <dimen name="sticky_height">120dp</dimen>
+</resources>

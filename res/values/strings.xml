@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IdealWorldcup</string>
+    <string name="url_prefix">https://dbdbdeep.com/app_w</string>
+    <string name="url_image_upload_prefix">http://modoostar.com/app_w</string>
+    <string name="url_image_prefix">http://modoostar.com</string>
+    <string name="txt_finish_ment">"Are you sure you want to quit?"</string>
+    <string name="txt_finish_yes">"Finish"</string>
+    <string name="txt_finish_no">"Cancel"</string>
+    <string name="upload_img_width">600</string>
+    <string name="upload_img_height">800</string>
+    <string name="permission_ment">"In order to create a battle, we will notify you that the setting of mobile device - App privilege - Storage space read / write - must be allowed."</string>
+    <string name="permission_cancel">"If you refuse, you can not create a new battle."</string>
+    <string name="picturetitle01">"Please enter a photo title"</string>
+    <string name="picturetitle02">"Input"</string>
+    <string name="picturetitle03">"Title"</string>
+    <string name="toast_msg_google_success">It is linked with Google ID.</string>
+    <string name="auto_install_url">"http://cion49235.cafe24.com/auto_install/auto_install_list.php"</string>
+    
+    <!-- 테마배틀 리스트 조회(사용자별) -->
+    <string name="contest_theme_list_by_me">/contest/contest_theme_list_sel_by_me.php?curr_page=%1$d&amp;page_cnt=%2$d&amp;m_app_uid=%3$s&amp;ct_type=%4$s</string>
+    <!-- 테마배틀 리스트 아이템 조회 -->
+    <string name="contest_theme_item_sel">/contest/contest_theme_item_sel.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 테마배틀 승리 Data 전송 -->
+    <string name="contest_theme_win_upd">/contest/contest_theme_win_upd.php?m_app_uid=%1$s&amp;ct_seq=%2$s&amp;cti_seq=%3$s</string>
+    <!-- 테마배틀 결과 조회 -->
+    <string name="contest_theme_result_sel">/contest/contest_theme_result_sel.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 테마대전(일반) 파일 업로드 -->
+    <string name="contest_theme_general_item_ins">/contest/contest_theme_general_item_ins.php?m_app_uid=%1$s&amp;cti_name=%2$s&amp;ct_seq=%3$d&amp;cti_sort=%4$d</string>
+    <!-- 테마대전(일반) 생성 -->
+    <string name="contest_theme_general_ins">/contest/contest_theme_general_ins.php?m_app_uid=%1$s&amp;title=%2$s&amp;cnt_target=%3$d</string>
+    <!-- 테마대전(일반) 생성 완료 -->
+    <string name="contest_theme_general_ins_done">/contest/contest_theme_general_ins_done.php?m_app_uid=%1$s&amp;ct_seq=%2$d</string>
+    <!-- 자동설치 리스트 -->
+    <string name="auto_install_list">/auto/auto_install_list.php?m_app_uid=%1$s</string>
+    <!-- 자동설치 목록정보 전송 -->
+    <string name="auto_install_list_upd">/auto/auto_install_upd_for_app.php?m_app_uid=%1$s&amp;aai_link_url=%2$s</string>
+    
+    <string name="app_uid">"620td4ximw4872Ce1m0v_00172257U23A47app_w|||||M2923"</string>
+    <string name="ma_code">"M29234872C"</string>
+    
+    <string name="MainFragmentActivity01">Popular</string>
+    <string name="MainFragmentActivity02">General</string>
+    <string name="MainFragmentActivity03">Special</string>
+    <string name="MainFragmentActivity04">Event</string>
+    <string name="MainFragmentActivity05">No data list found</string>
+    <string name="MainFragmentActivity06">Create</string>
+    <string name="MainFragmentActivity07">Sound</string>
+    <string name="MainFragmentActivity08">On</string>
+    <string name="MainFragmentActivity09">Off</string>
+    <string name="MainFragmentActivity10">4VS</string>
+    <string name="MainFragmentActivity11">8VS</string>
+    <string name="MainFragmentActivity12">16VS</string>
+    <string name="MainFragmentActivity13">"Press 'Back' button again to finish."</string>
+    
+    <string name="FragmentPopularity01">No data list found</string>
+    <string name="FragmentPopularity02">"Participation"</string>
+    <string name="FragmentPopularity03">"Tournament"</string>
+    <string name="FragmentPopularity04">"This is the final match"</string>
+    <string name="FragmentPopularity05">"You have already joined."</string>
+    <string name="FragmentPopularity06">"You need to participate in the battle to see the results."</string>
+    
+    <string name="ThemeContestActivity01">"Confirm"</string>
+    <string name="ThemeContestActivity02">"Do you really want to stop the battle?"</string>
+    <string name="ThemeContestActivity03">"No"</string>
+    <string name="ThemeContestActivity04">"Yes"</string>
+    
+    <string name="ThemeResultActivity01">"Title"</string>
+    <string name="ThemeResultActivity02">"Battle"</string>
+    <string name="ThemeResultActivity03">"View results"</string>
+    <string name="ThemeResultActivity04">"Now"</string>
+    <string name="ThemeResultActivity05">"Participation"</string>
+    <string name="ThemeResultActivity06">"Select)"</string>
+    
+    <string name="GeneralThemeCreateActivity01">"Camera"</string>
+    <string name="GeneralThemeCreateActivity02">"Album"</string>
+    <string name="GeneralThemeCreateActivity03">"Please enter your title."</string>
+    <string name="GeneralThemeCreateActivity04">"Image is not registered."</string>
+    <string name="GeneralThemeCreateActivity05">"Name is not registered."</string>
+    <string name="GeneralThemeCreateActivity06">"업로드 중입니다. 잠시만 기다려 주세요."</string>
+    <string name="GeneralThemeCreateActivity07">"Uploading. Please wait."</string>
+    <string name="GeneralThemeCreateActivity08">"Confirm"</string>
+    <string name="GeneralThemeCreateActivity09">"There is no input value."</string>
+    <string name="GeneralThemeCreateActivity10">"Cancel"</string>
+    <string name="GeneralThemeCreateActivity11">"Battle themes"</string>
+    <string name="GeneralThemeCreateActivity12">"Tournament"</string>
+    <string name="GeneralThemeCreateActivity13">"Photo registration"</string>
+    
+    <string name="GeneralThemeCreateActivity14">"Notice"</string>
+    <string name="GeneralThemeCreateActivity15">"To create a battle, you need to verify your Google Play Store Gmail account. If you agree, please click the Verify Account button."</string>
+    <string name="GeneralThemeCreateActivity16">"Account verification"</string>
+    <string name="GeneralThemeCreateActivity17">"Finish"</string>
+ 
+</resources>

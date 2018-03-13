@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_theme_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/layout_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvContestTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ThemeResultActivity01"
+                    android:textColor="@color/modooDarkBlue"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="11dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/contest_result_text_icon_01"
+                    android:layout_marginRight="6dp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ThemeResultActivity02"
+                    android:textColor="@color/modooMainPink"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ThemeResultActivity03"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical|right">
+                    <TextView
+                        android:id="@+id/tvCntParticipate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12dp"
+                        android:layout_marginRight="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+          <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dip"
+	        android:layout_weight="1">
+				<LinearLayout
+			            android:orientation="vertical"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent">
+	            <ideal.worldcup.automoney.cms.ExpandableHeightListView
+	                android:id="@+id/lvThemeItems"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:divider="#ffffff"
+	                android:dividerHeight="5dp"
+	                android:scrollbars="none"/>
+	            </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <RelativeLayout
+         android:layout_alignBottom="@+id/layout_result"
+		 android:id="@+id/ad_layout"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content" 
+		 android:layout_gravity="center_horizontal">		      
+		</RelativeLayout>
+</RelativeLayout>
